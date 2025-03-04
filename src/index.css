@@ -12,7 +12,7 @@ body {
 .container{
   width: 100vw;
   min-height: 100vh;
-  background: rgb(183, 202, 210);
+  /* background: rgb(183, 202, 210); */
   transition: 0.5s;
 }
 .container.dark{
@@ -21,4 +21,8 @@ text-decoration: white;
 }
 .container.dark h3{
   color: white;
+}
+#imgcontact{
+  width: 600px;
+  height: 400px;
 }
