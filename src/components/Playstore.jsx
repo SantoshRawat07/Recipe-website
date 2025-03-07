@@ -2,9 +2,8 @@ import React from 'react'
 
 const Playstore = () => {
   return (
-//   play store
-<div className="w-screen bg-gradient-to-r from-orange-500 to-red-500 text-white py-10 flex flex-col items-center mb-5">
-      <h1 className="text-3xl md:text-4xl font-bold text-center max-w-2xl">
+    <div className="w-screen bg-gradient-to-r from-orange-500 to-red-500 text-white py-10 flex flex-col items-center mb-5">
+      <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold text-center max-w-2xl">
         Download the <span className="text-yellow-300">Foodland Recipe App</span> from Play Store & App Store for Recipes and Food Orders
       </h1>
       <div className="flex space-x-4 mt-6">

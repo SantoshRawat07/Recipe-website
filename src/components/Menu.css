@@ -1,14 +1,78 @@
-.slick-track {
-  display: flex;
+.counter-box {
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  width: 160px;
+  margin: 0 8px;
 }
 
-.slick-slide {
+@media (min-width: 768px) {
+  .counter-box {
+    margin: 0 16px;
+  }
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ea580c;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-top: 8px;
+}
+/*  */
+.counter-container {
+  margin-top: 16px;
+  padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+@media (min-width: 768px) {
+  .counter-container {
+    margin-top: 20px;
+    gap: 45px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .counter-container {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+}
+
+.counter-box {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.slider-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image covers the container without distortion */
+
+/* heading */
+.heading {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  font-weight: bold;
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+  margin-top: 1.25rem; /* Equivalent to mt-5 */
+  text-align: center;
+  padding-top: 0.5rem; /* Equivalent to pt-2 */
+}
+
+/* Medium screens (md) */
+@media (min-width: 768px) {
+  .heading {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    margin-top: -8rem; /* Equivalent to md:-mt-20 */
+    padding-top: -4rem; /* Equivalent to md:pt-4 */
+  }
 }

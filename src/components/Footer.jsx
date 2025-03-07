@@ -2,15 +2,18 @@ import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
 import logo from "../assets/foodland-seeklogo.png";
+import shape1 from "../assets/shape-2.png";
+import shape2 from "../assets/shape-3.png";
+import shape3 from "../assets/shape-4.png";
 
 const Footer = () => {
   return (
     <footer className="footer-container">
       {/* Background Shapes */}
       <div className="footer-shapes">
-        <img src="assets/images/shape/shape-2.png" alt="shape" className="shape shape-one" />
-        <img src="assets/images/shape/shape-3.png" alt="shape" className="shape shape-two" />
-        <img src="assets/images/shape/shape-4.png" alt="shape" className="shape shape-three" />
+        <img src= {shape1} alt="shape" className="shape shape-one" />
+        <img src= {shape2} alt="shape" className="shape shape-two" />
+        <img src= {shape3} alt="shape" className="shape shape-three" />
       </div>
 
       <div className="footer-content">

@@ -27,7 +27,7 @@ const ItemCard = ({ id, name, qty, price, img }) => {
       <div className="leading-5">
         <h2 className="font-bold text-gray-800">{name}</h2>
         <div className="flex justify-between ">
-          <span className="text-green-500 font-bold">₹{price}</span>
+          <span className="text-green-500 font-bold">Rs: {price}</span>
           <div className="flex justify-center items-center gap-2 absolute right-7">
             <AiOutlineMinus
               onClick={() =>

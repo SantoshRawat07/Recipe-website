@@ -34,7 +34,7 @@ const Home = () => {
       <CategoryMenu />
       <FoodItems />
       <Cart />
-      <Recipecard/>
+      {/* <Recipecard/> */}
       <Testimonial/>
       <Playstore/>
       <Footer />

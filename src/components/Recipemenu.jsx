@@ -24,8 +24,7 @@ const CategoryMenu = () => {
   return (
 
     <div className="ml-6 ms-0">
-  
-      <h3 className="text-xl font-semibold mt-5 ms-10">Find the best food</h3>
+      <h3 className="text-xl font-semibold mt-5 ms-10">"Find Your Next Favorite Recipe"</h3>
       <div className="my-5 flex gap-3 overflow-x-scroll scroll-smooth lg:overflow-x-hidden ms-10">
         <button
           onClick={() => dispatch(setCategory("All"))}
