@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Contact.css"; // Import the CSS file
-import food from "../assets/food-contact.jpg";
 import contactimg from "../assets/contact-1.png";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
 import Footer from "../components/Footer";

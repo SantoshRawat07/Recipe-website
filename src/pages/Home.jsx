@@ -1,14 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
-import Navbar from "../components/Navbar";
 import CategoryMenu from "../components/CategoryMenu";
 import FoodItems from "../components/FoodItems";
 import Cart from "../components/Cart";
-import Header from "../components/Header";
+
 import Footer from "../components/Footer";
 import Playstore from "../components/Playstore";
-import Recipecard from "../components/Recipecard";
  import Testimonial from "../components/Testomonial";
 import Serve from "../components/Serve";
 import Slider from "../components/Slider";
