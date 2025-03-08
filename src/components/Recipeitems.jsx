@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FoodCard from "./Recipescard.jsx";
-import FoodData from "../data/RecipeData.js";
+import FoodCard from "./Recipescard";
+import FoodData from "../data/RecipeData";
 import { useSelector } from "react-redux";
-import ViewRecipe from "./Viewrecipe.jsx";
+import ViewRecipe from "./Viewrecipe";
 
 const FoodItems = () => {
   const [selectedFood, setSelectedFood] = useState(null);
