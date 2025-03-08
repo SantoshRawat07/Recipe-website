@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Clock } from "lucide-react";
 import momo from "../assets/Momo.jpeg";
-import dalBhat from "../assets/dalbhat.jpeg";
+import dalBhat from "../assets/Dalbhat.jpeg";
 import selRoti from "../assets/selroti.jpeg";
-import gundruk from "../assets/gundruk.jpeg";
-import yomari from "../assets/yomari.jpeg";
-import chatamari from "../assets/chatamari.jpeg";
-import sukuti from "../assets/sukuti.jpeg";
-import kwati from "../assets/kwati.jpeg";
-import samosa from "../assets/samosa.jpeg";
+import gundruk from "../assets/Gundruk.jpeg";
+import yomari from "../assets/Yomari.jpeg";
+import chatamari from "../assets/Chatamari.jpeg";
+import sukuti from "../assets/Sukuti.jpeg";
+import kwati from "../assets/Kwati.jpeg";
+import samosa from "../assets/Samosa.jpeg";
 
 const foodItems = [
   {
