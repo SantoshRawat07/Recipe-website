@@ -19,7 +19,7 @@ const Recipe = () => {
     // top-260
   }}
 >
-  <h1 className="text-3xl md:text-4xl font-bold -mt-4">Recipe</h1>
+  <h1 className="text-3xl md:text-4xl font-bold -mt-4 lg:mt-2">Recipe</h1>
   <nav className="flex justify-center space-x-2 md:space-x-4 mt-2">
     <a href="/" className="text-gray-300 hover:text-white text-sm md:text-base">
       Home

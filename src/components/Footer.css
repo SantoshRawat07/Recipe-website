@@ -8,7 +8,7 @@
   
   .footer-shapes .shape {
     position: absolute;
-    opacity: 0.1;
+    opacity: 0.5;
   }
   
   .shape-one { top: 10%; left: 5%; width: 80px; }
@@ -133,4 +133,31 @@
   .footer-section-2 ul li a:hover {
     color: #ff9800;
   }
-  
+  /* footer last */
+  .footer-default {
+    background-color: #121619;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .footer-default .footer-shape {
+    position: absolute;
+    z-index: -1;
+  }
+  @media (max-width: 991px) {
+    .footer-default .footer-shape {
+      display: none;
+    }
+  }
+  .footer-default .footer-shape.f-shape_one {
+    top: 120px;
+    left: 0;
+  }
+  .footer-default .footer-shape.f-shape_two {
+    bottom: 0;
+    left: 0;
+  }
+  .footer-default .footer-shape.f-shape_three {
+    bottom: 50px;
+    left: 30%;
+  }
+
+

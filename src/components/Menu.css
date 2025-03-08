@@ -68,11 +68,52 @@
   padding-top: 0.5rem; /* Equivalent to pt-2 */
 }
 
-/* Medium screens (md) */
-@media (min-width: 768px) {
+/* Medium screens (md)  */
+/* @media (min-width: 768px) {
+   .heading { 
+     font-size: 1.5rem;  
+     margin-top: -8rem;  
+     padding-top: -4rem; 
+   }
+}
+@media (min-width:767px) {
+  .menu{
+    margin-top: -120px;
+  }
+} */
+
+/* Mobile: Samsung S20 Ultra & other small screens */
+@media (max-width: 767px) {
   .heading {
-    font-size: 1.5rem; /* Equivalent to text-2xl */
-    margin-top: -8rem; /* Equivalent to md:-mt-20 */
-    padding-top: -4rem; /* Equivalent to md:pt-4 */
+    font-size: 1.2rem;  
+    margin-top: -4rem;  
+  }
+
+  .menu {
+    margin-top: 20px; 
+  }
+}
+
+/* Tablets: 768px and above */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .heading { 
+    font-size: 1.5rem;  
+    margin-top: -8rem;  
+  }
+
+  .menu {
+    margin-top: -120px;
+  }
+}
+
+/* Large screens: 1024px and above */
+@media (min-width: 1024px) {
+  .heading { 
+    font-size: 2rem;  
+    margin-top: -10rem;  
+  }
+
+  .menu {
+    margin-top: -140px;
   }
 }

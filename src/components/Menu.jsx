@@ -4,7 +4,7 @@ import { Card } from "./Card";
 import "../components/Menu.css"
 import Footer from "../components/Footer";
 import foodimg from "../assets/food-rec.jpeg";
-import food from "../assets/food-contact.jpg";
+import food from "../assets/foody.jpeg";
 import burger from "../assets/burger.jpeg";
 import pasta from "../assets/pasta.jpeg";
 import pizza from "../assets/pizza.jpeg";
@@ -67,7 +67,7 @@ const MenuPage = () => {
     backgroundRepeat: "no-repeat",
   }}
 >
-  <h1 className="text-3xl md:text-4xl font-bold -mt-4 md:-mt-8">Menu</h1>
+  <h1 className="text-3xl md:text-4xl font-bold -mt-4 md:-mt-8 lg:mt-4">Menu</h1>
   <nav className="flex flex-wrap justify-center gap-2 mt-2">
     <a href="/" className="text-gray-300 hover:text-white">Home</a>
     <span className="text-white">/ Menu</span>
@@ -111,7 +111,7 @@ const MenuPage = () => {
       </div>
   
             {/* Right Side: Image */}
-            <div className="lg:w-1/2 mt-6 md:mt-10 flex justify-center lg:justify-end px-4 md:px-6 lg:me-20">
+            <div className="lg:w-1/2 mt-6 md:mt-24 flex justify-center lg:justify-end px-4 md:px-2 lg:me-20 ">
               <img
                 src={foodimg}
                 alt="Delicious Food"
@@ -122,6 +122,7 @@ const MenuPage = () => {
         </section>
 
       {/* What's on Your Mind? */}
+      <div className="menu">
       <h2 className="heading">
          What's on Your Mind?
       </h2>
@@ -142,7 +143,7 @@ const MenuPage = () => {
           </Card>
         ))}
       </div>
-
+     </div>
       {/* Popular Recipes */}
       <h2 className="text-2xl font-bold mb-4 text-center">Explore Our Delicious Menu</h2>
 <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-5 gap-4 mb-20">

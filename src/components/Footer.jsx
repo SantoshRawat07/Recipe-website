@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import "./Footer.css";
 import logo from "../assets/foodland-seeklogo.png";
@@ -47,10 +48,38 @@ const Footer = () => {
         <div className="footer-section-2">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Our Menu</a></li>
-            <li><a href="#">Gallery</a></li>
+           <li>
+                    <NavLink 
+                      to="/" 
+                      className={({ isActive }) => isActive ? "active" : ""}
+                    >
+                      Home
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink 
+                      to="/menu" 
+                      className={({ isActive }) => isActive ? "active" : ""}
+                    >
+                      Menu
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink 
+                      to="/recipe" 
+                      className={({ isActive }) => isActive ? "active" : ""}
+                    >
+                      Recipe
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink 
+                      to="/contact" 
+                      className={({ isActive }) => isActive ? "active" : ""}
+                    >
+                      Contact
+                    </NavLink>
+                  </li>
           </ul>
         </div>
 
