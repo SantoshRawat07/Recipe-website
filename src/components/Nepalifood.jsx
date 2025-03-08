@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Clock } from "lucide-react";
-import momo from "../assets/momo.jpeg";
+import momo from "../assets/Momo.jpeg";
 import dalBhat from "../assets/dalbhat.jpeg";
 import selRoti from "../assets/selroti.jpeg";
 import gundruk from "../assets/gundruk.jpeg";
