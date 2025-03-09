@@ -35,7 +35,7 @@ ul li {
 .search-box {
     display: flex;
     align-items: center;
-    background: #242424;
+    background:#ffffff;
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -47,7 +47,7 @@ ul li {
     outline: 0;
     font-size: 18px;
     max-width: 200px;
-    color: #fff;
+    color: #000000;
 }
 
 .search-box img {
